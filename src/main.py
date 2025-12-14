@@ -1,4 +1,9 @@
 from textnode import TextNode, TextType
 
-node = TextNode("This is some anchor text", TextType.LINK, "https://www.boot.dev")
-print(node)
+
+def main():
+    node = TextNode("This is a text node", TextType.BOLD, "https://www.boot.dev")
+    print(node)
+
+
+main()
